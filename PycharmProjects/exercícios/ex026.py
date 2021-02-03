@@ -1,0 +1,6 @@
+frase = input("Digite uma frase:")
+c1 = frase.strip().upper()
+a1 = c1.count("A")
+a2 = c1.find("A")
+a3 = c1.rfind("A")
+print("A letra 'A' aparece {}\nA primeira letra A aoarece na posição {}\nA ultima letra Aparece na posição {}".format(a1, a2, a3))
